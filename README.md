@@ -3,7 +3,7 @@
 ## What is Generative AI in Computer Vision?
 Computer Vision (CV) is the field of AI that teaches machines to see and understand images. Traditional CV can look at a photo and say "that's a cat" but it can't create anything new.
 Generative AI in CV goes one step further: it can create brand new images from scratch.
-![GAN diagram](https://github.com/mariammouh/Generative-AI-in-Computer-Vision-ELI5-Guide/blob/main/images/gini.png) 
+![GAN diagram](images/gini.png) 
 Think of it like a magic genie. You describe what you want "a red cat sitting on a blue chair" and the genie draws it for you. But instead of magic, the AI has studied millions of images during training. It learned what cats look like, what chairs look like, how colors and shapes work together. Then when you ask for something, it mixes everything it learned to generate a completely new image that never existed before.
   ![GAN diagram](images/trad.png)
 ## Why Use Generative AI?
@@ -71,7 +71,7 @@ When training begins, the generator produces obviously fake data, and the discri
  
 #### What is a VAE?
 Imagine you have a box of colored pencils. Each pencil represents an idea or an image. VAEs are like artists who use these pencils to create new images from what they have already seen.
-  ![GAN diagram](images/vae.png)
+  ![GAN diagram](images/gae.png)
 #### The Three Blocks of the Architecture
  
 **Step 1: Learning to Draw**
