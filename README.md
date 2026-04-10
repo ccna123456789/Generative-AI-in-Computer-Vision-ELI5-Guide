@@ -1,11 +1,11 @@
 # Generative-AI-in-Computer-Vision-ELI5-Guide
- ![GAN diagram](images/blue_gini.png) 
+ ![GAN diagram](images/blue_gini.png1) 
 ## What is Generative AI in Computer Vision?
 Computer Vision (CV) is the field of AI that teaches machines to see and understand images. Traditional CV can look at a photo and say "that's a cat" but it can't create anything new.
 Generative AI in CV goes one step further: it can create brand new images from scratch.
-![GAN diagram](images/gini.png) 
+![GAN diagram](images/gini.png1) 
 Think of it like a magic genie. You describe what you want "a red cat sitting on a blue chair" and the genie draws it for you. But instead of magic, the AI has studied millions of images during training. It learned what cats look like, what chairs look like, how colors and shapes work together. Then when you ask for something, it mixes everything it learned to generate a completely new image that never existed before.
-  ![GAN diagram](images/trad.png)
+  ![GAN diagram](images/trad.png1)
 ## Why Use Generative AI?
 Here's the honest answer: creating visual content is slow, expensive, and requires skills most people don't have. Generative AI changes that.
 Some real-world examples:
@@ -42,14 +42,14 @@ That's exactly how a GAN works inside a computer:
 - The Game = GAN → they compete against each other, and because of that competition, both get better and better
  
 The Generator keeps fooling the Discriminator. The Discriminator keeps getting harder to fool. Until one day… the fake looks completely real.
-  ![GAN diagram](images/timmy.png)
+  ![GAN diagram](images/timmy.png1)
 #### GAN Structure
 A generative adversarial network (GAN) has two parts:
 - The generator learns to generate plausible data. The generated instances become negative training examples for the discriminator.
 - The discriminator learns to distinguish the generator's fake data from real data. The discriminator penalizes the generator for producing implausible results.
  
 When training begins, the generator produces obviously fake data, and the discriminator quickly learns to tell that it's fake.
-  ![GAN diagram](images/gan.png)
+  ![GAN diagram](images/gan.png1)
 #### Training the Discriminator and Generator
  
 **During discriminator training:**
@@ -71,7 +71,7 @@ When training begins, the generator produces obviously fake data, and the discri
  
 #### What is a VAE?
 Imagine you have a box of colored pencils. Each pencil represents an idea or an image. VAEs are like artists who use these pencils to create new images from what they have already seen.
-  ![GAN diagram](images/gae.png)
+  ![GAN diagram](images/gae.png1)
 #### The Three Blocks of the Architecture
  
 **Step 1: Learning to Draw**
@@ -115,7 +115,7 @@ Once a VAE is trained, it can do many useful things:
  
 ### Diffusion Models
 Imagine you take a beautiful drawing and you keep sprinkling sand on it, little by little, until the drawing completely disappears into a pile of sand. Now imagine teaching an AI to reverse that process — starting from a pile of random sand, it learns to remove the noise step by step until a clean, beautiful image appears.
-  ![GAN diagram](images/diff.png)
+  ![GAN diagram](images/diff.png1)
 The magic is in the training — the AI practices reversing noise millions of times until it becomes really good at it. Then when you give it a text prompt, it starts from pure random noise and "denoises" its way to your image.
  
 #### Real-World Examples
@@ -127,7 +127,7 @@ The magic is in the training — the AI practices reversing noise millions of ti
 ---
  
 ## Key Differences: GAN vs VAE vs Diffusion
-  ![GAN diagram](images/table.png)
+  ![GAN diagram](images/table.png1)
 | Architecture | Main Idea | Advantages | Limits |
 |---|---|---|---|
 | **GAN** | Two networks compete: Generator creates fakes, Discriminator tries to catch them | Sharp images, fast generation, great for style transfer | Unstable training, easy to collapse, needs careful balancing |
