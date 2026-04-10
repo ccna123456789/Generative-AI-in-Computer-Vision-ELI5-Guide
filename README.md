@@ -71,7 +71,7 @@ When training begins, the generator produces obviously fake data, and the discri
  
 #### What is a VAE?
 Imagine you have a box of colored pencils. Each pencil represents an idea or an image. VAEs are like artists who use these pencils to create new images from what they have already seen.
-  ![GAN diagram](images/vae.png)
+  ![GAN diagram](images/gae.png)
 #### The Three Blocks of the Architecture
  
 **Step 1: Learning to Draw**
